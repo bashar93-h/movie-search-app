@@ -47,5 +47,5 @@ It’s hard to quickly find accurate information about movies without navigating
 
 ### ⚙️ Project Setup
 
-npm install
-npm run dev
+- npm install
+- npm run dev
