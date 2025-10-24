@@ -1,0 +1,21 @@
+// {
+//   "compilerOptions": {
+//     "composite": true,
+//     "module": "ESNext",
+//     "moduleResolution": "Node",
+//     "allowSyntheticDefaultImports": true,
+//     "types": ["node"]
+//   },
+//   "include": ["vite.config.ts", "vitest.config.ts"]
+// }
+
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler", // Changed from "Node"
+    "allowSyntheticDefaultImports": true,
+    "types": ["node", "vite/client"] // Added vite/client
+  },
+  "include": ["vite.config.ts", "vitest.config.ts"]
+}

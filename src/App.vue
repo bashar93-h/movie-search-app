@@ -1,4 +1,4 @@
-<script setup></script>
+<script setup lan="ts"></script>
 
 <template>
   <h1>Movie search app</h1>
