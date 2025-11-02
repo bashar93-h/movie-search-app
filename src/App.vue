@@ -1,6 +1,5 @@
-//adding comments //adds
-
 <script setup lang="ts">
+//adding comments //adds
 import { onMounted } from 'vue'
 import { useLocalStorage } from './composables/useLocalStorage'
 import LoadingSpinner from './components/LoadingSpinner.vue'
