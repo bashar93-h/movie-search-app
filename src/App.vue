@@ -40,5 +40,4 @@ function handleClick() {
 </template>
 
 <style scoped></style>
-//adding comments
-//adds
+//adding comments //adds
