@@ -1,3 +1,5 @@
+//adding comments //adds
+
 <script setup lang="ts">
 import { onMounted } from 'vue'
 import { useLocalStorage } from './composables/useLocalStorage'
@@ -40,4 +42,3 @@ function handleClick() {
 </template>
 
 <style scoped></style>
-//adding comments //adds
