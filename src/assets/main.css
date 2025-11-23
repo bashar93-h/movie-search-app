@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+}
+
+html {
+  @apply bg-background-light transition-colors duration-500;
+}
+
+html.dark {
+  @apply bg-background-dark;
+}
+
+.Vue-Toastification__toast--success {
+  @apply bg-primary-light !important; /* Tailwind green-600 */
+  color: white !important;
+}
