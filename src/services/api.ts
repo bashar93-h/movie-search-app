@@ -3,7 +3,7 @@ import axios, { type AxiosError } from 'axios'
 const api = axios.create({
   baseURL: import.meta.env.VITE_OMDB_BASE_URL,
   params: {
-    apiKey: import.meta.env.VITE_OMDB_API_KEY,
+    apikey: import.meta.env.VITE_OMDB_API_KEY,
   },
 })
 

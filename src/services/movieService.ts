@@ -15,3 +15,6 @@ export const movieService = {
     return response.data
   },
 }
+
+console.log('OMDb URL:', import.meta.env.VITE_OMDB_BASE_URL)
+console.log('OMDb KEY:', import.meta.env.VITE_OMDB_API_KEY)
