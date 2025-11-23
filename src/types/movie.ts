@@ -1,3 +1,8 @@
+export interface Rating {
+  movieId: string
+  userRating: number
+}
+
 export interface Movie {
   imdbID: string
   Title: string
@@ -15,6 +20,14 @@ export interface MovieDetails extends Movie {
   Actors: string
   Plot: string
   imdbRating: string
+}
+
+export interface TmdbMovie {
+  id: string
+  title: string
+  release_date?: string
+  media_type?: string
+  poster_path?: string
 }
 
 export interface SearchResponse {
