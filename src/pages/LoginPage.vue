@@ -26,7 +26,9 @@ const handleLogin = async () => {
 </script>
 <template>
   <div class="h-[calc(100vh-72px)] flex justify-center items-center">
-    <div class="max-w-md w-full bg-background-dark dark:bg-background-light rounded-2xl p-8 pb-20">
+    <div
+      class="w-[90%] max-w-md md:w-full bg-background-dark dark:bg-background-light rounded-2xl p-6 md:p-8 pb-20"
+    >
       <div class="text-center mb-8 text-text-dark dark:text-text-light">
         <h1 class="text-3xl font-goldman font-bold mb-2">Welcome back</h1>
         <p>Sign in to access your movie collection</p>
