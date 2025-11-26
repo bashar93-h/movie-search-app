@@ -8,11 +8,14 @@ const movieStore = useMovieStore()
 </script>
 <template>
   <div class="max-w-7xl mx-auto mt-10 text-text-light dark:text-text-dark">
-    <div v-if="!movieStore.hasFavorites">
-      <h2 class="text-xl font-semibold">No favorite movies yet 🎬</h2>
+    <div v-if="!movieStore.hasFavorites" class="text-center md:text-start">
+      <h2 class="text-lg md:text-xl font-semibold">No favorite movies yet 🎬</h2>
       <p class="mt-2">start exploring and add movies to your favorites!</p>
     </div>
-    <div v-else class="grid justify-items-center grid-cols-2 xl:grid-cols-5 gap-y-3 md:gap-8">
+    <div
+      v-else
+      class="grid justify-items-center grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-y-3 md:gap-8"
+    >
       <MovieBox
         v-for="favorite in movieStore.favorites"
         :key="favorite.imdbID"
