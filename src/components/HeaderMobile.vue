@@ -23,6 +23,6 @@ const isToggled = ref<boolean>(false)
       </div>
       <MainNavMobile :isToggled="isToggled" @close="isToggled = false" />
     </div>
-    <SearchInput styling="w-full dark:border-y dark:border-gray-600" />
+    <SearchInput styling="w-full  border-y border-gray-200 dark:border-gray-600" />
   </header>
 </template>
