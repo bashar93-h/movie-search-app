@@ -23,7 +23,7 @@ onMounted(async () => {
   <div v-else-if="movieStore.error">
     <ErrorMessage :message="movieStore.error" />
   </div>
-  <div v-else-if="movieStore.hasMovies" class="max-w-7xl mx-auto mt-10 px-10">
+  <div v-else-if="movieStore.hasMovies" class="max-w-7xl mx-auto mt-10 px-5 md:px-10">
     <MovieSearchBox v-for="movie in movieStore.movies" :key="movie.imdbID" :movie="movie" />
   </div>
   <div
