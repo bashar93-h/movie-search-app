@@ -21,12 +21,12 @@ const getToDetails = () => {
 <template>
   <div
     data-cy="movie-card"
-    class="bg-secondary-light dark:bg-secondary-dark text-text-light dark:text-text-dark w-44 md:w-64 rounded-xl overflow-hidden transition-colors duration-500 cursor-pointer"
+    class="bg-secondary-light dark:bg-secondary-dark text-text-light dark:text-text-dark w-40 md:w-64 rounded-xl overflow-hidden transition-colors duration-500 cursor-pointer"
     @click="getToDetails"
     role="button"
     tabindex="0"
   >
-    <div class="w-full h-[250px] md:h-[333px]">
+    <div class="w-full h-[230px] md:h-[333px]">
       <img :src="Poster" alt="Poster" class="w-full h-full object-cover" />
     </div>
     <div class="flex justify-between py-3 px-2">
