@@ -6,7 +6,7 @@ describe('Rating Flow: Login → Rate Movie → Verify Persistence', () => {
 
   it('should allow user to rate a movie and see the rating persist', () => {
     // Step 1: Login
-    cy.contains(/login/i).click()
+    cy.contains('Login').click()
     cy.get('input[type="email"]').type('member@movie.com')
     cy.get('input[type="password"]').type('member123')
     cy.get('button[type="submit"]').click()

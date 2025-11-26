@@ -10,7 +10,11 @@ const authStore = useAuthStore()
 </script>
 
 <template>
-  <nav aria-label="Main navigation" role="navigation" class="text-text-light dark:text-text-dark">
+  <nav
+    aria-label="Main navigation"
+    role="navigation"
+    class="text-text-light dark:text-text-dark hidden md:block"
+  >
     <ul class="flex gap-8 items-center">
       <li>
         <RouterLink
