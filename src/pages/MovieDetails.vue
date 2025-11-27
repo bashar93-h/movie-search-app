@@ -2,6 +2,7 @@
 import ErrorMessage from '@/components/ErrorMessage.vue'
 import LoadingSpinner from '@/components/LoadingSpinner.vue'
 import SelectedMovieDetails from '@/components/SelectedMovieDetails.vue'
+import SelectedMovieDetailsMobile from '@/components/SelectedMovieDetailsMobile.vue'
 import { useMovieStore } from '@/stores/movieStore'
 import { onMounted } from 'vue'
 import { useRoute, RouterLink, useRouter } from 'vue-router'
@@ -36,6 +37,7 @@ onMounted(() => {
     </div>
     <div class="relative z-10">
       <SelectedMovieDetails :movie="movieStore.selectedMovie" />
+      <SelectedMovieDetailsMobile :movie="movieStore.selectedMovie" />
     </div>
   </div>
 </template>
