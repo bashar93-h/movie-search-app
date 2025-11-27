@@ -43,8 +43,10 @@ const userRating = computed(() => movieStore.getUserRating(imdbID))
 </script>
 
 <template>
-  <div class="max-w-7xl mx-auto text-text-dark flex flex-col md:hidden gap-6 p-7 font-poppins z-20">
-    <div class="w-[360px] flex-shrink-0 rounded-xl overflow-hidden">
+  <div
+    class="max-w-7xl mx-auto text-text-dark flex flex-col items-center md:hidden gap-6 p-7 font-poppins z-20"
+  >
+    <div class="w-[90%] flex-shrink-0 rounded-xl overflow-hidden">
       <img :src="Poster" alt="Poster" class="h-[450px] md:h-[510px] w-full object-cover" />
     </div>
     <div class="flex flex-col gap-y-8 flex-1">
