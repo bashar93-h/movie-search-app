@@ -14,7 +14,7 @@
       "purpose": "any maskable"
     },
     {
-      "src": "/logo.png",
+      "src": "./fav.jpg",
       "sizes": "512x512",
       "type": "image/jpg",
       "purpose": "any maskable"
