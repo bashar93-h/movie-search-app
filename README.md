@@ -52,4 +52,4 @@ It’s hard to quickly find accurate information about movies without navigating
 
 
 ## Demo
-you can view a live demo of the project here: [Movie Search App](https://movie-search-pro-gamma.vercel.app/)
+you can view a live demo of the project here: [Movie Search App]
