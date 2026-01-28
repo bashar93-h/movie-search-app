@@ -54,5 +54,4 @@ It’s hard to quickly find accurate information about movies without navigating
 ## Demo
 🌐 Live Demo: [Movie Search App](https://movie-search-pro-gamma.vercel.app/)
 ## Portfolio
-👤 Portfolio: https://your-portfolio.vercel.app
-
+👤 Portfolio: [https://your-portfolio.vercel.app](https://portfolio-ebon-two-70.vercel.app/)
